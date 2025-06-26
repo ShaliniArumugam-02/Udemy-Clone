@@ -18,6 +18,9 @@ body {
     border-bottom: solid black 1px;
     gap: 15px;
     align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
 }
 
 .navbar__left {
@@ -77,6 +80,7 @@ body {
     border-radius: 5px;
 }
 
+
 .navbar__s3__login {
     border: solid #B593E8 .5px;
     color: #6D28D2;
@@ -107,11 +111,38 @@ body {
     border: solid #B593E8 .5px;
 }
 
+.sale-image {
+    position: relative;
+}
+
 .sale-image img {
     width: 100%;
 
 }
+.sale-image__offer {
+    position:absolute ;
+    width: 30%;
+    background-color: white;
+    padding: 2%;
+    top: 25%;
+    left: 7%;
+    border-radius: 7px;
+}
 
+.sale-image__offer button {
+    background-color: #892DE1;
+    color: white;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-weight: bolder;
+    border: none;
+    font-size: 17px;
+}
+
+.sale-image__offer h1 {
+    margin-bottom: 7px;
+}
 .recommended {
     padding: 40px;
 }
